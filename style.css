@@ -21,8 +21,7 @@ body {
     background-color: hsl(0, 0%, 100%);
     display: flex;
     flex-direction: column;
-    width: 19vw;
-    height: 60vh;
+    width: 200px;
     padding: .8em;
     text-align: center;
     margin: 6em 0;
@@ -48,6 +47,7 @@ img {
 .p-head {
     color: hsl(218, 44%, 22%);
     font-weight: 700;
+    margin: 1em 0;
 }
 
 p {
@@ -56,38 +56,10 @@ p {
     color: hsl(0deg 0% 58.42%);
 }
 
-@media (min-width: 1440px) {
 
+
+@media (min-width: 375px) {
     .container {
-        display: flex;
-        flex-direction: column;
-        width: 23vw;
-        height: 50vh;
-        margin: 15em 0;
+        width: 250px;    
     }
-
-    .p-head {
-        font-size: 1.3rem;
-    }
-
-    p {
-        font-size: 0.9rem;
-    }
-
-}
-
-@media (min-width: 375px) and (max-width: 900px){
-    .container {
-        width: 80vw;
-        height: 90vh;
-    }
-
-    .p-head {
-        font-size: 1.3rem;
-    }
-
-    p {
-        font-size: 0.9rem;
-    }
-
 }
