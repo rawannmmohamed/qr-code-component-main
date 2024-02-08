@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: "Outfit", sans-serif;
+    Font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    width: 19vw;
+    height: 60vh;
+    padding: .8em;
+    text-align: center;
+    margin: 6em 0;
+    border-radius: 1em;
+
+}
+
+img {
+    width: 100%;
+    height: 60%;
+    border-radius: 0.5em;
+
+}
+
+.paragraph {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40%;
+}
+
+.p-head {
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+}
+
+p {
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: hsl(0deg 0% 58.42%);
+}
+
+@media (min-width: 1440px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 23vw;
+        height: 50vh;
+        margin: 15em 0;
+    }
+
+    .p-head {
+        font-size: 1.3rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .container {
+        width: 80vw;
+        height: 90vh;
+    }
+
+    .p-head {
+        font-size: 1.3rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+}
